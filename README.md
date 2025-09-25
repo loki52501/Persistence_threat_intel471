@@ -167,11 +167,4 @@ process.command_line:*anydesk* and not process.command_line:*OneDriveSetup.exe* 
 
 > **Sanitization notice:** This repository contains only sanitized examples, queries, and small demo scripts. All real hostnames, IPs, credentials, and proprietary data have been redacted. Do not upload real incident data to this public repository.
 
-
-
-# OUTPUT
-
-
-[![output](image.png)]
-
 ---
