@@ -4,7 +4,7 @@ es_find_flags_auth.py
 
 Simple script that searches localhost:9200 for:
  - Flag2: .ps1 script that mentions "password" and extracts a literal password if present
- - Flag1: AnyDesk-related files (AnyDesk_ID.txt / AnyDesk.exe)
+ - Flag1: AnyDesk-related files (AnyDesk*)
 
 Usage:
   python3 es_find_flags_auth.py --user elastic --pass 'YourPassword'
