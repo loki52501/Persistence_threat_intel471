@@ -153,18 +153,3 @@ process.command_line:*anydesk* and not process.command_line:*OneDriveSetup.exe* 
 * Rotate credentials where compromise is suspected. Reimage hosts if you cannot ensure clean removal of persistence.
 
 ---
-
-## How to publish this repo safely
-
-1. **Sanitize artifacts**: never upload raw logs, passwords, or internal hostnames.
-2. **Use placeholders** in prose for any sensitive string (examples used above).
-3. **Provide sample, synthetic data** if you want to demonstrate output.
-4. **Document clearly** what has been redacted in the README so reviewers know the repo is safe to browse.
-
----
-
-## Example disclaimer you can add at top of repo
-
-> **Sanitization notice:** This repository contains only sanitized examples, queries, and small demo scripts. All real hostnames, IPs, credentials, and proprietary data have been redacted. Do not upload real incident data to this public repository.
-
----
